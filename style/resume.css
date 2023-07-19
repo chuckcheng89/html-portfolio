@@ -1,0 +1,95 @@
+/* Add or modify any additional styles here as needed */
+body, h1, h2, h3, p {
+    margin: 0;
+    padding: 0;
+    font-family: 'Lato', sans-serif;
+    text-align: center;
+
+}
+
+
+/* Styles for the menu banner */
+.menu-banner {
+    background-color: #0E2954;
+    padding: 10px;
+    text-align: right; /* Align the content (menu items) to the right */
+
+}
+
+.menu-banner ul {
+    list-style: none;
+    display: inline; /* Change the display property to inline to show the menu items in a row */
+}
+
+.menu-banner li {
+    display: inline-block; /* Display the list items in a row */
+    margin-right: 15px;
+}
+
+.menu-banner li:last-child {
+    margin-right: 0;
+}
+
+.menu-banner a {
+    color: #fff;
+    text-decoration: none;
+    padding: 5px 10px;
+}
+
+.menu-banner a:hover {
+        background: linear-gradient(to top left, #1F6E8C, #84A7A1); /* Add gradient background */
+
+}
+
+/* Styles for each specific container */
+.container6,
+.container7,
+.container8,
+.container9,
+.container10,
+.container11,
+.container12,
+.container13,
+.container14 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+    gap: 10px;
+    background: linear-gradient(to bottom right, #0E2954, #84A7A1); /* Add gradient background */
+    color: #fff;
+    text-align: left;
+    padding: 20px;
+}
+
+.container6 h2,
+.container7 h2,
+.container8 h2,
+.container9 h2,
+.container10 h2,
+.container11 h2,
+.container12 h2,
+.container13 h2 {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.container6 p,
+.container7 p,
+.container8 p,
+.container9 p,
+.container10 p,
+.container11 p,
+.container12 p,
+.container13 p {
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+.container13 ul {
+    list-style: disc;
+    margin-left: 20px;
+}
+
+/* Additional styling as needed */
